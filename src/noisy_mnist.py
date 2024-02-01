@@ -28,7 +28,7 @@ def noise_img(x, random_state=None):
     # noise = random.choice(noises)
     noise = noises[1]
     seed = random_state.randint(2 ** 30)
-    img = random_noise(x, seed=seed, **noise)
+    img = random_noise(x, rng=seed, **noise)
     return np.clip(img, 0, 1)
 
 
