@@ -1,0 +1,1 @@
+{"params": {"train_split": null, "optimizer__weight_decay": 0.0009161402457138521, "optimizer__nesterov": true, "optimizer__momentum": 0.2182182182182182, "optimizer__lr": 3.4043329793658708, "optimizer": "Adam", "module__init": "kaiming_uniform_", "module__activation": "ELU", "batch_size": 32}, "score": -1.9923282861709595}
