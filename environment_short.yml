@@ -30,6 +30,8 @@ dependencies:
   - ca-certificates
   - certifi
   - openssl
+  - code-server
+  - pip
   - pip:
       - ray==2.9.1
 

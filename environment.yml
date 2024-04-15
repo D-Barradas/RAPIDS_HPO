@@ -1,4 +1,4 @@
-name: rapids-23.12
+ame: rapids-23.12
 channels:
   - pytorch
   - anaconda
