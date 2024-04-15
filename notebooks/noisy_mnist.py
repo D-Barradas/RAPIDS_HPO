@@ -28,7 +28,9 @@ def noise_img(x, random_state=None):
     # noise = random.choice(noises)
     noise = noises[1]
     seed = random_state.randint(2 ** 30)
-    img = random_noise(x, rng=seed, **noise)
+    # img = random_noise(x, rng=seed, **noise)
+    img = random_noise(image=x, seed=seed, **noise)
+
     return np.clip(img, 0, 1)
 
 
@@ -88,7 +90,9 @@ def _get_dataset(library="pytorch"):
         raise ValueError("wrong library to get MNIST dataset")
 
 def dataset(n=None, random_state=None):
-    random_state = check_random_state(random_state)
+    # random_state = check_random_state(random_state)
+    random_state = check_random_state(73)
+
     x = _get_dataset()
     y = np.apply_along_axis(train_formatting, 1, x)
 
