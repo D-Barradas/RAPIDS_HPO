@@ -2,7 +2,7 @@ RAPIDS-HPO
 ==============================
 ## Brief description 
 
-I created this repo with the intention to refine the notebooks that show how to work Data Science in GPUs using the RAPIDS library, DASK and Skorch. It is a work in progress to make them more  readable but I already made them work.
+I created this repo with the intention to refine the notebooks that show how to work Data Science in GPUs using the RAPIDS library, DASK and Skorch. It is a work in progress to make them more readable but I already made them work.
 
 
 ## Project Organization
@@ -37,13 +37,13 @@ I created this repo with the intention to refine the notebooks that show how to 
 
 ## Documentation
 
-[Ibex training](https://www.hpc.kaust.edu.sa/ibex/training)
+[Ibex training](https://wiki.vis.kaust.edu.sa/training/overview)
 
-[Shaheen training](https://www.hpc.kaust.edu.sa/training)
+[Shaheen training](https://docs.hpc.kaust.edu.sa/training/shaheen_user_training.html)
 
 [KSL How-To repository](https://kaust-supercomputing-lab.atlassian.net/l/cp/tAG1wkA0)
 
-[Starting pack for ibex](https://kaust-supercomputing-lab.atlassian.net/l/cp/vEPgAcio)
+[Starting pack for ibex](https://wiki.vis.kaust.edu.sa/dstools)
 
 
 
