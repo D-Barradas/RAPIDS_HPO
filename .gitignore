@@ -1,3 +1,6 @@
+capstone_material/
+capstone_material.tar.gz
+
 *.out
 *.err
 
